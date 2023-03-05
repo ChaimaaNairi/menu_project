@@ -1,8 +1,8 @@
 export const items = [
-    { id: Math.random(), title: 'وجبه فطار', description: 'وصف الفطار', price: '100 جنيه', category: 'فطار', imgUrl: "1.png" },
-    { id: Math.random(), title: 'وجبه غدا', description: 'وصف الفطار', price: '80 جنيه', category: 'غدا', imgUrl: "2.png" },
-    { id: Math.random(), title: 'وجبه عشاء', description: 'وصف الفطار', price: '40 جنيه', category: 'عشاء', imgUrl: "3.png" },
-    { id: Math.random(), title: 'وجبه غدا ممتاز', description: 'وصف الفطار', price: '30 جنيه', category: 'غدا', imgUrl: "2.png" },
-    { id: Math.random(), title: 'وجبه عشاء درجه اولى', description: 'وصف الفطار', price: '50 جنيه', category: 'عشاء', imgUrl: "1.png" },
-    { id: Math.random(), title: 'وجبه فطار', description: 'وصف الفطار', price: '50 جنيه', category: 'فطار', imgUrl: "3.png" },
-    { id: Math.random(), title: 'وجبه سناك', description: 'وصف الفطار', price: '50 جنيه', category: 'سناك', imgUrl: "3.png" }]
+    { id: Math.random(), title: ' Breakfast', description: 'Breakfast description ', price: '100 USD', category: 'Breakfast', imgUrl: "1.jpg" },
+    { id: Math.random(), title: ' Lunch', description: 'Lunch description ', price: '80 USD', category: 'Lunch', imgUrl: "2.jpg" },
+    { id: Math.random(), title: ' Dinner', description: 'Dinner description ', price: '40 USD', category: 'Dinner', imgUrl: "3.jpg" },
+    { id: Math.random(), title: ' Lunch ', description: 'Lunch description ', price: '30 USD', category: 'Lunch', imgUrl: "2.jpg" },
+    { id: Math.random(), title: ' Dinner  ', description: 'Dinner description ', price: '50 USD', category: 'Dinner', imgUrl: "1.jpg" },
+    { id: Math.random(), title: ' Breakfast', description: 'Breakfast description ', price: '50 USD', category: 'Breakfast', imgUrl: "3.jpg" },
+    { id: Math.random(), title: ' Snack', description: 'Snack description ', price: '50 USD', category: 'Snack', imgUrl: "3.jpg" }]

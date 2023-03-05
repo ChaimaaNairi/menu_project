@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <Row>
             <Col sm="12" className="justify-content-center text-center">
-                <div className="title">food menu</div>
+                <div className="title">Food Menu</div>
                 <div className="justify-content-center d-flex">
                     <p className="underline"></p>
                 </div>

@@ -9,11 +9,11 @@ function App() {
   const [itemsData, setItemsData] = useState(items)
 
   //get all cat uniqe
-  const allCategory = ['الكل', ...new Set(items.map((i) => i.category))]
+  const allCategory = ['All', ...new Set(items.map((i) => i.category))]
 
   //filter by category
   const filterbyCategory = (cat) => {
-    if (cat === "الكل") {
+    if (cat === "All") {
       setItemsData(items)
     } else {
       const newArr = items.filter((item) => item.category === cat)

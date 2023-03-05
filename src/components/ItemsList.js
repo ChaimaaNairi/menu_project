@@ -1,11 +1,11 @@
 import React from 'react'
 import { Row, Col, Card } from 'react-bootstrap'
-import Zoom from 'react-reveal/Zoom';
+//import Zoom from 'react-reveal/Zoom';
 
 const ItemsList = ({ itemsData }) => {
     return (
         <Row>
-            <Zoom>
+            <>
                 {
                     itemsData.length >= 1 ? (itemsData.map((item) => {
                         return (<Col key={item.id} sm="12" className="mb-3">
@@ -24,7 +24,7 @@ const ItemsList = ({ itemsData }) => {
                         </Col>)
                     })) : <h3 className="text-center">There are no items</h3>
                 }
-            </Zoom>
+            </>
         </Row>
     )
 }
